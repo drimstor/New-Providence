@@ -1433,7 +1433,18 @@ ul.ull li {
             flex-direction: column;
 
         }
-               
+        .inteface__get {
+            margin-bottom: 50px;
+        }
+        span.txtspan {
+            margin-top: 0px;
+        }
+        .interface__imgs {
+            padding-bottom: 100px;
+        }
+        .footer__body {
+            padding-top: 10px;
+        }
     }
     @media screen and (max-width: 366px) {
          .partners__img {
