@@ -573,6 +573,7 @@ input[type=submit]:hover {
         padding: 12px 10px;
         width: 170px;
         transition: all 0.3s ease-in-out 0s;
+	border-radius: 30px;
     }
 
     input:focus {
