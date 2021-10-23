@@ -1427,7 +1427,7 @@ ul.ull li {
                 left: 0px;
                 
                 transition: all 0.3s ease-in-out 0s;
-                border-radius: 25%;
+                border-radius: 33%;
             }
         }
         .footer__link {
