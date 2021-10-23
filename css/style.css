@@ -1402,8 +1402,9 @@ ul.ull li {
         }
         .header__text h1 {
             width: 110%;
-            margin-left: -10px;
+            margin-left: -14px;
             font-size: 58px;
+            line-height: 55px;
         }
         .header__text p {
             font-size: 18px;
@@ -1453,5 +1454,7 @@ ul.ull li {
         .partners {
             height: 920px;
         }
-        
+        .header__text h1 {
+            width: 110%;
+            margin-left: -10px;
     }
