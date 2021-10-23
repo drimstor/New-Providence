@@ -1421,6 +1421,13 @@ ul.ull li {
         input[type=submit] {
             width: 120px;
             height: 46px;
+            margin-bottom: 30;
+                top: 5px;
+                left: 0px;
+                
+                transition: all 0.3s ease-in-out 0s;
+                border-radius: 50px;
+            }
         }
         .footer__link {
             flex-direction: column;
