@@ -573,7 +573,7 @@ input[type=submit]:hover {
         padding: 12px 10px;
         width: 170px;
         transition: all 0.3s ease-in-out 0s;
-	border-radius: 30px;
+        border-radius: 50px;
     }
 
     input:focus {
@@ -1226,7 +1226,7 @@ ul.ull li {
         input[type=submit] {
             width: 120px;
             left: 72px;
-            border-radius: 30px;
+            width: 120px;
         }
         .slider__comment {
             padding-top: 230px;
@@ -1421,7 +1421,6 @@ ul.ull li {
         input[type=submit] {
             width: 120px;
             height: 46px;
-	    border-radius: 30px;
         }
         .footer__link {
             flex-direction: column;
