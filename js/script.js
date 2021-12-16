@@ -1,5 +1,3 @@
-
-
     $(document).ready(function() {
 
         $('.header__burger,.close').click(function(event) {
@@ -12,16 +10,16 @@
            $('body').removeClass('lock');
          })
   
-    var enabled = document.querySelector('.enabled');
+    let enabled = document.querySelector('.enabled');
     
-         $('.plan2').click(function(event) {
+         $('.plan2').click(function() {
             $('.plan2').addClass('enab');
             $('.plan__right').addClass('enbl');
             enabled.style.transform = 'translateX(65px)';
              $('.plan__left ').removeClass('enbl');
              $('.plan1').removeClass('enab');
           });
-          $('.plan1').click(function(event) {
+          $('.plan1').click(function() {
             $('.plan1').addClass('enab');
             $('.plan__left').addClass('enbl');
             enabled.style.transform = 'translateX(-65px)';
@@ -36,8 +34,8 @@
 
 
     $('a.scrollto').click(function() {
-        var elementClick = $(this).attr('href')
-        var destination = $(elementClick).offset().top;
+        let elementClick = $(this).attr('href')
+        let destination = $(elementClick).offset().top;
         jQuery('html:not(:animated),body:not(:animated)').animate({
            scrollTop: destination
         }, 800);
@@ -67,35 +65,36 @@
         else {
             $('.header__top,.header__header').removeClass('scroll');
         };
+    });
 
 
 
-    
-            $('.slider').slick({
-                arrows:true,
-                dots:true,
-                slidesToShow:1,
-                autoplay:true,
-                speed:1000,
-                autoplaySpeed:2000,
-                // centerMode: true,
-                responsive:[
-                    {
-                        breakpoint: 768,
-                        settings: {
-                       
-                        }
-                    },
-                    {
-                        breakpoint: 550,
-                        settings: {
-                            slidesToShow:1
-                        }
-                    }
-                ]
-            });
 
-        
+    $('.slider').slick({
+        arrows:true,
+        dots:true,
+        slidesToShow:1,
+        autoplay:true,
+        speed:1000,
+        autoplaySpeed:2000,
+        // centerMode: true,
+        responsive:[
+            {
+                breakpoint: 768,
+                settings: {
+               
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow:1
+                }
+            }
+        ]
+    });
+
+
 
     });
-    });
+
